@@ -1,0 +1,96 @@
+body {
+    background-image: url(log_bg.jpg);
+    background-size: cover;
+}
+
+ul {
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #021024;
+}
+
+li a:hover {
+    color: #052659;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgba(218, 219, 220, 0.233);
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    background-color: rgba(218, 219, 220, 0.233);
+    border: 0;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+b {
+    font-size: 18px;
+}
+
+.pass {
+    text-align: right;
+    font-size: large;
+}
+
+button {
+    background-color: #052659;
+    color: #C1E8FF;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: #5483B3;
+    color: #052659;
+}
+
+.container a {
+    text-decoration: none;
+    color: #021024;
+    cursor: pointer;
+}
+
+.container a:hover {
+    color: #C1E8FF; 
+}
+
+.reg {
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
+}
